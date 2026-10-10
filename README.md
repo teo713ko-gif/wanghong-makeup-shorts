@@ -24,6 +24,8 @@ docs/                     ← 편집 방법과 기준(이 순서대로 읽기)
   06_레퍼런스분석.md        참고 쇼츠·예시 이미지별 분석과 재현 수치
   07_피드백이력.md          v1→v5→편집기까지 사용자 피드백과 반영 내용(왜 지금 기준이 됐는지)
   08_문제해결.md            실제로 겪은 오류와 해결(디스크 가득·zsh 인자·폰트 등)
+  09_자막제목_스타일가이드.md  ★ 제목·자막 스타일 전부(CSS 수치, 역할, 연출, 자막 58개 목록, CapCut 대응) — 코드에서 자동 생성
+tools/make_style_doc.py   ← 스타일 바꾼 뒤 09 문서 다시 만들기
 pipeline/                 ← 원본 → 베이스 영상(FFmpeg, Python)
   analyze_source.sh        원본 분석(무음·검정 구간·화면 영역·장면 전환·장면 모음)
   extract_caption_track.py 사용자 자막 트랙 영상 → 자막 변경 시각 + 판독 이미지
@@ -61,7 +63,7 @@ cd editor && npm run editor
 node render-1010-wanghong-editor.cjs v6
 ```
 
-## 핵심 기준 한눈에(자세히는 docs/04)
+## 핵심 기준 한눈에(자세히는 docs/04, 정확한 수치는 docs/09)
 | 역할 | 기본 스타일 | 예시 출처 |
 |---|---|---|
 | 기본 말자막 | Pretendard Medium 54px 흰색, 테두리 없이 은은한 그림자, 애니메이션 없이 말 단위로 툭툭 교체 | 기본자막.png(크기 2/3) · HxM6DROCO40 |
