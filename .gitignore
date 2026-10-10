@@ -1,0 +1,7 @@
+work/
+editor/node_modules/
+editor/public/1010wh/*.mp4
+editor/public/1010wh/SBAggroB.ttf
+pipeline/timeline.json
+pipeline/captions_out.json
+.DS_Store
