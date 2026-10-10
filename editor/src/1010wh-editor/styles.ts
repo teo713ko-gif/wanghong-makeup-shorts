@@ -46,7 +46,7 @@ export const PRESETS = {
 	label2: {label: '노랑 굵은 고딕 라벨 (폰트2)', font: 'Aggro', size: 76, color: '#ffe600', stroke: 12, strokeColor: '#000', letterSpacing: '-0.02em', lineHeight: 1.1},
 	bold7: {label: '흰 굵은 고딕 + 검정 테두리 (폰트7 메인)', font: 'Aggro', size: 96, color: '#fff', stroke: 12, strokeColor: '#000', letterSpacing: '-0.02em', lineHeight: 1.1},
 	sub7: {label: '노랑 괄호 보조자막 (폰트7 위)', font: 'GowunDodum', size: 54, color: '#ffe600', stroke: 7, strokeColor: '#1a1400', shadow: '0 3px 6px rgba(0,0,0,.5)', lineHeight: 1.2},
-	title2: {label: '흰 제목 (폰트2 위 띠)', font: 'PretendardSemiBold', size: 84, color: '#fff', stroke: 0, strokeColor: 'transparent', shadow: '0 2px 4px rgba(0,0,0,.6)', letterSpacing: '-0.02em', lineHeight: 1.25, weight: 600},
+	title2: {label: '흰 제목 (폰트2 위 띠)', font: 'PretendardSemiBold', size: 96, color: '#fff', stroke: 0, strokeColor: 'transparent', shadow: '0 2px 4px rgba(0,0,0,.6)', letterSpacing: '-0.02em', lineHeight: 1.25, weight: 600},
 	round: {label: '둥근 손글씨 + 보라 글로우 (v2)', font: 'PoorStory', size: 120, color: '#fff', stroke: 12, strokeColor: '#a96ee8', glow: 'rgba(169,110,232,.8)', glowSize: 1, letterSpacing: '-0.02em', lineHeight: 1.08},
 } satisfies Record<string, StylePreset>;
 
