@@ -7,7 +7,7 @@ export const RemotionRoot = () => <>
 		<Composition id="WanghongEditor" component={Editor} schema={editorSchema} durationInFrames={2354} fps={30} width={1080} height={1920}
 			defaultProps={{
 	"layout": "thirds",
-	"title": "무쌍이 왕홍메이크업 받으면\n쌍꺼풀 생길까?",
+	"title": "무쌍이 왕홍메이크업을 받으면?",
 	"titleStyle": "title2",
 	"bottomText": "",
 	"roles": {

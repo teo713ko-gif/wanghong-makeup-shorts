@@ -193,7 +193,7 @@ const TitleBar: React.FC<{props: EditorProps}> = ({props}) => {
 	const n = Math.max(...lines.map((l) => l.length));
 	const size = Math.min(p.size, 1000 / (n * 0.95 * (p.scaleX ?? 1)));
 	return <>
-		<div style={{position: 'absolute', top: 0, left: 0, width: 1080, height: THIRDS.barTop, display: 'flex', alignItems: 'center', justifyContent: 'center', paddingTop: 60}}>
+		<div style={{position: 'absolute', top: 0, left: 0, width: 1080, height: THIRDS.barTop, display: 'flex', alignItems: 'flex-end', justifyContent: 'center', paddingBottom: 14}}>{/* 제목은 영상 칸 바로 위에 붙임 */}
 			<div style={{...look(p), fontSize: size, lineHeight: p.lineHeight, textAlign: 'center', whiteSpace: 'nowrap', transform: p.scaleX ? `scaleX(${p.scaleX})` : undefined, filter: outerFilter(p)}}>{lines.map((l, i) => <div key={i}>{l}</div>)}</div>
 		</div>
 		{props.bottomText && <div style={{position: 'absolute', top: THIRDS.barTop + THIRDS.videoH + 30, width: 1080, textAlign: 'center', ...look(p), fontSize: 56}}>{props.bottomText}</div>}
